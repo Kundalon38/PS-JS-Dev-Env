@@ -11,7 +11,7 @@ describe('Our first test', ()=> {
   })
 })
 
-describe('index.html', () => {git
+describe('index.html', () => {
   it('should say Hello World', (done) => {
     /* body of the test */
     const indexHtml = fs.readFileSync('./src/index.html', "utf-8");
